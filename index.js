@@ -10,9 +10,9 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/', createProxyMiddleware({ target: 'http://data-simsimi.glitch.me', changeOrigin: true }));
+app.use('/', createProxyMiddleware({ target: 'https://chatbot-community.replit.app', changeOrigin: true }));
 
 const server = http.createServer(app);
-server.listen(process.env.PORT || port, () => {
+server.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
