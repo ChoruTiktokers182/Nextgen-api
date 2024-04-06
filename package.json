@@ -1,0 +1,19 @@
+{
+  "name": "ChatBotCommunity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "http": "",
+    "express": "^4.18.2",
+    "path": "",
+    "http-proxy-middleware": "^2.0.6",
+    
+  }
+}
