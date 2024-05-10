@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/', createProxyMiddleware({ target: 'https://chatbot-community.replit.app', changeOrigin: true }));
+app.use('/', createProxyMiddleware({ target: 'https://nextgen-api.replit.app', changeOrigin: true }));
 
 const server = http.createServer(app);
 server.listen(port, () => {
