@@ -1,5 +1,5 @@
 {
-  "name": "ChatBotCommunity",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "dependencies": {
     "http": "",
     "express": "^4.18.2",
-    "path": "",
     "http-proxy-middleware": "^2.0.6"
   }
 }
